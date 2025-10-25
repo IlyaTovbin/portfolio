@@ -1,8 +1,9 @@
 import { useState } from "react";
-import Navbar from "./navbar/Navbar";
 import { Link } from "react-router-dom";
-
-function Sidebar() {
+import { FaBars } from 'react-icons/fa';
+import Navbar from "../components/Navbar";
+import Social from "../components/Sidebar/Social";
+function SidebarLayout() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
   return (
     <div className="sidebar-container">
@@ -11,7 +12,7 @@ function Sidebar() {
           <Link to="/">Profile</Link>
         </div>
         <div onClick={() => setToggleSidebar(!toggleSidebar)} className="icon pointer">
-          Icon
+          <FaBars />
         </div>
       </div>
 
@@ -24,8 +25,10 @@ function Sidebar() {
       <div className="large-menu">
           <Navbar />
       </div>
+
+      <Social />
     </div>
   )
 }
 
-export default Sidebar;
+export default SidebarLayout;
