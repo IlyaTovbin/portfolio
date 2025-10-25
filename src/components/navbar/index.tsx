@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaHome, FaUserCircle, FaCube, FaRegEnvelope } from 'react-icons/fa';
 
-function Navbar() {
+export default function Navbar() {
   const links = [
     { to: '/', label: 'Home', icon: FaHome },
     { to: '/about', label: 'About', icon: FaUserCircle },
@@ -20,5 +20,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;
