@@ -13,10 +13,18 @@
   overflow: hidden;
 }
 
-.menu {
+.sidebar-container {
   width: 100%;
   padding: 1rem;
   background-color: #12436D;
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.large-menu {
+  display: none;
 }
 
 .content {
@@ -36,8 +44,14 @@
     margin: 0 auto;
     border-radius: 10px;
   }
-  .menu {
+  .sidebar-container {
     width: 30%;
+    .icon {
+      display: none;
+    }
+  }
+  .large-menu {
+    display: block;
   }
   .content {
     width: 70%;

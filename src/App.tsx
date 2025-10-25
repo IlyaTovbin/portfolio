@@ -1,14 +1,23 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Sidebar from './components/Sidebar';
+import Main from './components/pages/Main';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
     <div className="main">
       <div className="container">
-        <div className="menu">
-          portfolio
-        </div>
+        <Sidebar />
         <div className="content">
-          Content
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </div>
       </div>
     </div>
@@ -16,4 +25,3 @@ function App() {
 }
 
 export default App
-

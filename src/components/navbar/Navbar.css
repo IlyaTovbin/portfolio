@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: lightgray;
+}
