@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
-import SidebarLayout from './SidebarLayout'
-import Main from '../pages/Main'
-import About from '../pages/About'
-import Projects from '../pages/Projects'
-import Contact from '../pages/Contact'
-import '../styles/MainLayout.css'
+import SidebarLayout from '@/layouts/SidebarLayout'
+import Main from '@/pages/Main'
+import About from '@/pages/About'
+import Projects from '@/pages/Projects'
+import Contact from '@/pages/Contact'
+import '@/styles/MainLayout.css'
 
 const MainLayout = () => {
   return (
