@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="navbar">
       {links.map(({ to, label, icon: Icon }) => (
         <Link key={to} className="nav-link flex items-center gap-2" to={to}>
-          {Icon && <Icon className="ml-1 text-gray-500" size={16} />}
+          {Icon && <Icon className="ml-1 text-gray-500" size={25} />}
           <span>{label}</span>
         </Link>
       ))}

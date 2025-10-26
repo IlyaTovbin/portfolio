@@ -23,10 +23,11 @@ function SidebarLayout() {
       )}
 
       <div className="large-menu">
-          <Navbar />
+          <div className="large-menu-container">
+            <Navbar />
+            <Social />
+          </div>
       </div>
-
-      <Social />
     </div>
   )
 }

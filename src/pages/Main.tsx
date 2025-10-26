@@ -1,6 +1,8 @@
+import '../styles/pages.css';
+
 function Main() {
   return (
-    <div>Main Page</div>
+    <div className="page main-page content-inner-main">Main Page</div>
   )
 }
 

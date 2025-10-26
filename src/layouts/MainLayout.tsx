@@ -8,7 +8,7 @@ import '@/styles/MainLayout.css'
 
 const MainLayout = () => {
   return (
-    <div className="main">
+    <div className="main roboto-font">
       <div className="container">
         <SidebarLayout />
         <div className="content">

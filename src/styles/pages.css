@@ -1,0 +1,26 @@
+.page {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.main-page {
+    background-image: url('./images/main-bg.jpg');
+    min-height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-inner-darker{
+    min-height: inherit;
+    background: rgb(0, 0, 0, 50%);
+    overflow: hidden;
+}
+
+.content-inner-main{
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
