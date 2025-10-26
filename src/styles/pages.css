@@ -4,7 +4,7 @@
 }
 
 .main-page {
-    background-image: url('./images/main-bg.jpg');
+    background-image: url('../assets/images/main-bg.jpg');
     min-height: inherit;
     background-position: center;
     background-repeat: no-repeat;
