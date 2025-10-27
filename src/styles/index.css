@@ -8,12 +8,17 @@
   margin: 0;
 }
 
-.roboto-font {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+:root {
+  --base-font: "Roboto", sans-serif;
+  --color-base: rgb(185, 185, 185);
+  --color-white: #ffffff;
+  --background: linear-gradient(90deg, rgba(42,100,157,1) 0%, rgba(49,102,148,1) 48%, rgba(0,72,105,1) 100%);
+  --secondary-background-color: #12436D;
+  --content-background-color: #f8f9fa;
+}
+
+body {
+  font-family: var(--base-font);
 }
 
 

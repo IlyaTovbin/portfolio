@@ -2,9 +2,8 @@
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: rgb(42,100,157);
-  background: linear-gradient(90deg, rgba(42,100,157,1) 0%, rgba(49,102,148,1) 48%, rgba(0,72,105,1) 100%);
-  color: rgb(185, 185, 185);
+  background: var(--background);
+  color: var(--color-base);
 }
 .container {
   display: flex;
@@ -17,7 +16,7 @@
 .sidebar-container {
   width: 100%;
   padding: 1rem;
-  background-color: #12436D;
+  background-color: var(--secondary-background-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,7 +42,7 @@
 .content {
   width: 100%;
   padding: 1rem;
-  background-color: #f8f9fa;
+  background-color: var(--content-background-color);
   min-height: 100vh;
 }
 
