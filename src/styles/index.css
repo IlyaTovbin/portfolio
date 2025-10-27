@@ -12,6 +12,7 @@
   --base-font: "Roboto", sans-serif;
   --color-base: rgb(185, 185, 185);
   --color-white: #ffffff;
+  --color-black: #212529;;
   --background: linear-gradient(90deg, rgba(42,100,157,1) 0%, rgba(49,102,148,1) 48%, rgba(0,72,105,1) 100%);
   --secondary-background-color: #12436D;
   --content-background-color: #f8f9fa;
