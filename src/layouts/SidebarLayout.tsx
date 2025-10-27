@@ -1,15 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import Navbar from "@/components/Navbar";
 import Social from "@/components/Sidebar/Social";
+import Profile from "@/components/Sidebar/Profile";
 function SidebarLayout() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
   return (
     <div className="sidebar-container">
       <div className="flex">
         <div className="profile">
-          <Link to="/">Profile</Link>
+          <Profile />
         </div>
         <div onClick={() => setToggleSidebar(!toggleSidebar)} className="icon pointer">
           <FaBars />
